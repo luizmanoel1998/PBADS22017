@@ -7,7 +7,12 @@ namespace Prova01.Models
 {
     public class Automovel
     {
-        Automovel = int 
+        public int AutomovelId { get; set; }
+        public string Tipo { get; set; }
+        public string Descricao { get; set; }
+        public string Marca { get; set; }
+        public bool Disponivel { get; set; }
+        public DateTime DataCadastro { get; set; }
 
     }
 }

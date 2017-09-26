@@ -29,5 +29,7 @@ namespace Prova01.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<Prova01.Models.Automovel> Automovels { get; set; }
     }
 }
